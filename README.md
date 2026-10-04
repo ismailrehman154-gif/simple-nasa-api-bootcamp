@@ -1,22 +1,9 @@
-# 🚀 Project: Simple NASA API
+# NASA Picture of the Day
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+Pick a date, get NASA's Astronomy Picture of the Day for it.
 
-### How to submit your code for review:
+![NASA Picture of the Day screenshot](screenshot.jpg)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+The catch: the API doesn't always send a picture. Some days it's a video. The code has to check what it got and show the right element while hiding the other, or you end up with a broken image where a video should be.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+NASA's APOD API, vanilla JavaScript fetch. My code is on the `answer` branch.
