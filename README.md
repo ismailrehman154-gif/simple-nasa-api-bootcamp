@@ -2,6 +2,8 @@
 
 Pick any date and get NASA's Astronomy Picture of the Day for it: the title, the explanation, and the actual image. Some days it's a video, and the app handles that too.
 
+**Live site:** https://simple-nasa-api-bootcamp.vercel.app
+
 ![NASA APOD screenshot](screenshot.jpg)
 
 ## How the code works
